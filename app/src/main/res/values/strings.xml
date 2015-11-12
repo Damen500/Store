@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Store</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mouse">Mouse</string>
+    <string name="title_activity_cable">Cable</string>
+    <string name="title_activity_button">Button</string>
+    <string name="title_activity_phone">Phone</string>
+    <string name="title_activity_banana">Banana</string>
+    <string name="title_activity_apple">Apple</string>
+    <string name="title_activity_kiwi">Kiwi</string>
+    <string name="title_activity_tomatoe">Tomatoe</string>
+    <string name="title_activity_grapes">Grapes</string>
+    <string name="title_activity_monitor">Monitor</string>
+    <string name="title_activity_web_cam">WebCam</string>
+    <string name="title_activity_computer">Computer</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_hyperchase">hyperchase</string>
+    <string name="title_activity_venomenon">venomenon</string>
+    <string name="title_activity_lunarglide">lunarglide</string>
+    <string name="title_activity_trainer">trainer</string>
+    <string name="title_activity_candycrush">candycrush</string>
+    <string name="title_activity_clashofclans">clashofclans</string>
+    <string name="title_activity_agario">agario</string>
+    <string name="title_activity_smashyroadwanted">smashyroadwanted</string>
+    <string name="title_activity_angrybirds">angrybirds</string>
+</resources>

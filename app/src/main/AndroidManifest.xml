@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.h0607265.store" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Store"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Mouse"
+            android:label="@string/title_activity_mouse" >
+        </activity>
+
+        <activity
+            android:name=".Banana"
+            android:label="@string/title_activity_banana" >
+        </activity>
+        <activity
+            android:name=".Apple"
+            android:label="@string/title_activity_apple" >
+        </activity>
+        <activity
+            android:name=".Kiwi"
+            android:label="@string/title_activity_kiwi" >
+        </activity>
+        <activity
+            android:name=".Tomato"
+            android:label="@string/title_activity_tomatoe" >
+        </activity>
+        <activity
+            android:name=".Grapes"
+            android:label="@string/title_activity_grapes" >
+        </activity>
+        <activity
+            android:name=".Monitor"
+            android:label="@string/title_activity_monitor" >
+        </activity>
+        <activity
+            android:name=".WebCam"
+            android:label="@string/title_activity_web_cam" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.freeruns"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.hyperchase"
+            android:label="@string/title_activity_hyperchase" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.venomenon"
+            android:label="@string/title_activity_venomenon" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.lunarglide"
+            android:label="@string/title_activity_lunarglide" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.trainer"
+            android:label="@string/title_activity_trainer" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.candycrush"
+            android:label="@string/title_activity_candycrush" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.clashofclans"
+            android:label="@string/title_activity_clashofclans" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.agario"
+            android:label="@string/title_activity_agario" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.smashyroadwanted"
+            android:label="@string/title_activity_smashyroadwanted" >
+        </activity>
+        <activity
+            android:name="com.example.h0607265.store.angrybirds"
+            android:label="@string/title_activity_angrybirds" >
+        </activity>
+        <activity
+            android:name=".Computer"
+            android:label="@string/title_activity_computer" >
+        </activity>
+        <activity
+            android:name=".List"
+
+            android:label="@string/title_activity_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
