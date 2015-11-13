@@ -24,7 +24,7 @@ public class List extends Activity implements AdapterView.OnItemClickListener{
         setContentView(R.layout.activity_list);
         listView1 = (ListView) findViewById(R.id.listView1);
 
-        String[] items =  new String[]{"Apples","Banana","Computer","Grapes","Kiwi","Monitor","Mouse","Tomato","WebCam","Agar.io","Angry Birds","Candy Crush","Clash of Clans","Free Runs","Hyper Chase","Lunar Glide","Smashy Road Wanted","Trainer","Venomenon"};
+        String[] items =  new String[]{"Apple","Banana","Computer","Grapes","Kiwi","Monitor","Mouse","Tomato","WebCam","Agar.io","Angry Birds","Candy Crush","Clash of Clans","Free Runs","Hyper Chase","Lunar Glide","Smashy Road Wanted","Trainer","Venomenon"};
         Arrays.sort(items);
         ArrayList<String> itemArrayList = new ArrayList<String>();
         itemArrayList.addAll(Arrays.asList(items));
@@ -36,7 +36,7 @@ public class List extends Activity implements AdapterView.OnItemClickListener{
 
     }
 
-    //Hellos
+
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -52,7 +52,7 @@ public class List extends Activity implements AdapterView.OnItemClickListener{
                 Intent intent1 = new Intent(this, angrybirds.class);
                 startActivity(intent1);
                 break;
-            case "Apples":
+            case "Apple":
                 Intent intent2 = new Intent(this, Apple.class);
                 startActivity(intent2);
                 break;
